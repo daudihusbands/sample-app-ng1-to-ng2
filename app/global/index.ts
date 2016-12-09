@@ -13,4 +13,5 @@ const globalAppModule = {
   runBlocks: [authHookRunBlock]
 };
 
+// load the globalAppModule into the ngmodule (angular 1 module)
 loadNg1AppModule(ngmodule, globalAppModule)
